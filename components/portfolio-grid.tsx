@@ -118,7 +118,7 @@ export function PortfolioGrid() {
 
       {activeVideo ? (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 px-4 py-6 backdrop-blur-sm">
-          <div className="w-full max-w-5xl rounded-3xl border border-zinc-800 bg-zinc-950 p-3 shadow-2xl sm:p-4">
+          <div className="flex h-full w-full max-h-[calc(100vh-4rem)] max-w-5xl flex-col overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-950 p-3 shadow-2xl sm:p-4">
             <div className="mb-3 flex items-center justify-between">
               <div>
                 <p className="text-[10px] font-semibold uppercase tracking-[0.24em] text-brand">Video</p>
@@ -132,13 +132,13 @@ export function PortfolioGrid() {
                 Close
               </button>
             </div>
-            <div className="overflow-hidden rounded-2xl border border-zinc-800 bg-black">
+            <div className="flex-1 min-h-0 overflow-hidden rounded-2xl border border-zinc-800 bg-black">
               <iframe
                 src={getVideoEmbedUrl(activeVideo.href || "")}
                 title={activeVideo.title}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-                className="w-full h-[90vh] sm:aspect-video sm:h-auto"
+                className="h-full w-full"
               />
             </div>
           </div>
