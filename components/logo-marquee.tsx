@@ -29,12 +29,7 @@ export function LogoMarquee() {
               key={`${item}-${index}`}
               className="mx-8 flex h-16 min-w-[190px] items-center justify-center grayscale transition-all duration-300 hover:grayscale-0"
             >
-              <div className="flex items-center gap-3 text-zinc-400">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-zinc-800">
-                  <span className="text-xs font-bold">{item[0]}</span>
-                </div>
-                <span className="font-medium">{item}</span>
-              </div>
+              <span className="font-medium text-zinc-400">{item}</span>
             </div>
           ))}
         </div>

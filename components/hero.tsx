@@ -6,11 +6,11 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
 const avatars = [
-  "/professional-headshot-1.png",
-  "/professional-headshot-2.png",
-  "/professional-headshot-3.png",
-  "/professional-headshot-4.png",
-  "/professional-headshot-5.png",
+  "/logo/stemlink.jpeg",
+  "/logo/art.jpeg",
+  "/logo/iws.png",
+  "/logo/shak-tea.png",
+  "/logo/cell-express.png",
 ];
 
 const textRevealVariants = {
@@ -112,13 +112,13 @@ export function Hero() {
                   alt=""
                   width={40}
                   height={40}
-                  className="h-10 w-10 rounded-full border-2 border-zinc-950 object-cover"
+                  className="h-10 w-10 rounded-full border-2 border-zinc-950 object-contain"
                 />
               </motion.div>
             ))}
           </div>
           <p className="text-sm text-zinc-500">
-            Trusted by <span className="font-medium text-zinc-300">10+ growing brands</span> moving from messy to
+            Trusted by <span className="font-medium text-zinc-300">10+ growing and reputed brands</span> moving from messy to
             market-ready
           </p>
         </motion.div>
