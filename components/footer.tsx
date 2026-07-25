@@ -29,7 +29,7 @@ export function Footer() {
           <div className="col-span-2 md:col-span-1">
             <Link href="/" className="mb-4 flex items-center gap-2">
               <Image
-                src="/logo/GrindUp_logo_white.png"
+                src="/logo/digital-logo-purple.png"
                 width={12345}
                 height={4059}
                 alt="GrindUp Digital"
@@ -65,12 +65,8 @@ export function Footer() {
         >
           <p className="text-sm text-zinc-500">&copy; {new Date().getFullYear()} GrindUp Digital. All rights reserved.</p>
           <div className="flex items-center gap-6">
-            <Link href="/portfolio" className="text-sm text-zinc-500 transition-colors hover:text-white">
-              Portfolio
-            </Link>
-            <Link href="/products" className="text-sm text-zinc-500 transition-colors hover:text-white">
-              Products
-            </Link>
+            <span className="text-sm text-zinc-500">Portfolio</span>
+            <span className="text-sm text-zinc-500">Products</span>
             <Link href="/contact" className="text-sm text-zinc-500 transition-colors hover:text-white">
               Contact
             </Link>
