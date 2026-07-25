@@ -23,10 +23,9 @@ export const contactDetails = {
 };
 
 export const socialLinks = [
-  { label: "Instagram", href: "https://www.instagram.com/grindupdigital/" },
-  { label: "TikTok", href: "https://www.tiktok.com/@grindupdigital" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/company/grindupdigital" },
-  { label: "Facebook", href: "https://www.facebook.com/grindupdigital" },
+  { label: "Facebook", href: "https://www.facebook.com/share/1BdFnYaJdY/?mibextid=wwXIfr" },
+  { label: "Instagram", href: "https://www.facebook.com/share/1BdFnYaJdY/?mibextid=wwXIfr" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/company/grind-up-digital/" },
 ];
 
 export const services = [
