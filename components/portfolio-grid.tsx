@@ -18,13 +18,13 @@ export function PortfolioGrid() {
 
     if (href.includes("youtube.com/watch?v=")) {
       const videoId = href.split("v=")[1]?.split("&")[0];
-      return `https://www.youtube.com/embed/${videoId}`;
+      return `https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1&playsinline=1&iv_load_policy=3`;
     }
 
     if (href.includes("drive.google.com/file/d/")) {
       const match = href.match(/file\/d\/([^/]+)/);
       const fileId = match?.[1];
-      return fileId ? `https://drive.google.com/file/d/${fileId}/preview` : href;
+      return fileId ? `https://drive.google.com/file/d/${fileId}/preview?rm=minimal` : href;
     }
 
     return href;
@@ -139,6 +139,7 @@ export function PortfolioGrid() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 className="h-full w-full"
+                style={{ minHeight: 0 }}
               />
             </div>
           </div>

@@ -2,7 +2,6 @@ import { BentoGrid } from "../components/bento-grid";
 import { FinalCTA } from "../components/final-cta";
 import { Footer } from "../components/footer";
 import { Hero } from "../components/hero";
-import { LogoMarquee } from "../components/logo-marquee";
 import { Navbar } from "../components/navbar";
 import { PortfolioGrid } from "../components/portfolio-grid";
 import { PricingSection } from "../components/pricing-section";
@@ -12,7 +11,6 @@ export default function HomePage() {
     <main className="min-h-screen bg-zinc-950">
       <Navbar />
       <Hero />
-      <LogoMarquee />
       <BentoGrid />
       <section className="px-4 py-24">
         <div className="mx-auto max-w-6xl">
