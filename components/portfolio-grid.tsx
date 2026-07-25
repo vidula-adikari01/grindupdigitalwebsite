@@ -138,7 +138,7 @@ export function PortfolioGrid() {
                 title={activeVideo.title}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-                className="aspect-video w-full"
+                className="w-full h-[90vh] sm:aspect-video sm:h-auto"
               />
             </div>
           </div>
