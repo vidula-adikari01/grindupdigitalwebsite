@@ -301,8 +301,8 @@ export const products = [
     text: "For founders and lean teams that need consistent creative while validating demand.",
     highlighted: false,
     includes: [
-      "8 short-form reels/month",
-      "15 static designs",
+      "4 reels",
+      "8 flyers",
       "Monthly strategy call",
       "Basic performance report",
     ],
@@ -314,8 +314,8 @@ export const products = [
     text: "The core growth package for brands that need stronger output, testing, and decision-making rhythm.",
     highlighted: true,
     includes: [
-      "16 reels/month",
-      "30 static designs",
+      "8 reels",
+      "12 flyers",
       "A/B ad creative testing",
       "Bi-weekly calls + strategy",
       "Full performance dashboard",
@@ -328,7 +328,8 @@ export const products = [
     text: "For brands ready to connect creative production, ad management, funnel insight, and performance upside.",
     highlighted: false,
     includes: [
-      "Unlimited creatives",
+      "15 reels",
+      "20 flyers",
       "Ad account management",
       "Monthly funnel gap audit",
       "Weekly strategy sessions",
