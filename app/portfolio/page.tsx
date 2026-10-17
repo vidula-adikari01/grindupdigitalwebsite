@@ -9,9 +9,9 @@ export const metadata: Metadata = {
 
 export default function PortfolioPage() {
   return (
-    <main className="min-h-screen bg-zinc-950 px-4 pb-24 pt-32">
+    <main className="min-h-screen bg-zinc-950">
       <Navbar />
-      <section className="mx-auto max-w-6xl">
+      <section className="mx-auto max-w-6xl px-4 pb-24 pt-32">
         <div className="mb-12 space-y-4 text-center">
           <p className="text-sm font-medium uppercase tracking-wider text-zinc-500">Portfolio</p>
           <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">

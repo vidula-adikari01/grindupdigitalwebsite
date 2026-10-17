@@ -220,13 +220,28 @@ export const workItems = [
     image: "/portfolio/10.png",
   },
   {
-    title: "MC Automic Video 01",
+    title: "Automotive Showcase 01",
     category: "Videos",
-    slug: "mc-automic-video-01",
-    client: "MC Automic",
+    slug: "automotive-showcase-01",
     orientation: "portrait",
-    image: "https://drive.google.com/thumbnail?id=1fjxhBZaIGj8yKz0PTmXsOzLMWu4Xz9B4",
-    href: "https://drive.google.com/file/d/1fjxhBZaIGj8yKz0PTmXsOzLMWu4Xz9B4/view?usp=sharing",
+    image: "/videos/showcase/showcase-1.jpg",
+    video: "/videos/showcase/showcase-1.mp4",
+  },
+  {
+    title: "Webinar Campaign Ad",
+    category: "Videos",
+    slug: "webinar-campaign-ad",
+    orientation: "portrait",
+    image: "/videos/showcase/showcase-4.jpg",
+    video: "/videos/showcase/showcase-4.mp4",
+  },
+  {
+    title: "Automotive Showcase 02",
+    category: "Videos",
+    slug: "automotive-showcase-02",
+    orientation: "portrait",
+    image: "/videos/showcase/showcase-2.jpg",
+    video: "/videos/showcase/showcase-2.mp4",
   },
   {
     title: "MC Automic Video 02",
@@ -234,8 +249,17 @@ export const workItems = [
     slug: "mc-automic-video-02",
     client: "MC Automic",
     orientation: "portrait",
-    image: "https://drive.google.com/thumbnail?id=1trv_wbQKkbEXiwRJ_DnSlni7h5I76lRz",
-    href: "https://drive.google.com/file/d/1trv_wbQKkbEXiwRJ_DnSlni7h5I76lRz/view?usp=sharing",
+    image: "/videos/showcase/showcase-3.jpg",
+    video: "/videos/showcase/showcase-3.mp4",
+  },
+  {
+    title: "MC Automic Video 01",
+    category: "Videos",
+    slug: "mc-automic-video-01",
+    client: "MC Automic",
+    orientation: "portrait",
+    image: "/videos/portfolio/mc-automic-video-01.jpg",
+    video: "/videos/portfolio/mc-automic-video-01.mp4",
   },
   {
     title: "IWS Brand Showreel",
@@ -243,8 +267,8 @@ export const workItems = [
     slug: "iws-brand-showreel",
     client: "IWS",
     orientation: "landscape",
-    image: "https://drive.google.com/thumbnail?id=1GK6Y6SwKL76ptD_FxcQR-I95rhnhjCNs",
-    href: "https://drive.google.com/file/d/1GK6Y6SwKL76ptD_FxcQR-I95rhnhjCNs/view",
+    image: "/videos/portfolio/iws-brand-showreel.jpg",
+    video: "/videos/portfolio/iws-brand-showreel.mp4",
   },
   {
     title: "Volvo Showroom Video",
@@ -252,8 +276,8 @@ export const workItems = [
     slug: "volvo-showroom-video",
     client: "Volvo",
     orientation: "landscape",
-    image: "https://drive.google.com/thumbnail?id=1M9ezPHk8N-zxZD8I5gkyHUVMiBR1_22Q",
-    href: "https://drive.google.com/file/d/1M9ezPHk8N-zxZD8I5gkyHUVMiBR1_22Q/view",
+    image: "/videos/portfolio/volvo-showroom-video.jpg",
+    video: "/videos/portfolio/volvo-showroom-video.mp4",
   },
   {
     title: "Complicated Apes Podcast",
@@ -270,8 +294,8 @@ export const workItems = [
     slug: "cellexpress-video-01",
     client: "CellExpress",
     orientation: "portrait",
-    image: "https://drive.google.com/thumbnail?id=1SeZan9zQ4xo7V3STcUUJ-vgHc9qw7Uq2",
-    href: "https://drive.google.com/file/d/1SeZan9zQ4xo7V3STcUUJ-vgHc9qw7Uq2/view",
+    image: "/videos/showcase/showcase-5.jpg",
+    video: "/videos/showcase/showcase-5.mp4",
   },
   {
     title: "CellExpress Video 02",
@@ -279,8 +303,8 @@ export const workItems = [
     slug: "cellexpress-video-02",
     client: "CellExpress",
     orientation: "portrait",
-    image: "https://drive.google.com/thumbnail?id=1zew3kZw_0Pc4prKMD4AaNFMQDDlf7aAE",
-    href: "https://drive.google.com/file/d/1zew3kZw_0Pc4prKMD4AaNFMQDDlf7aAE/view",
+    image: "/videos/portfolio/cellexpress-video-02.jpg",
+    video: "/videos/portfolio/cellexpress-video-02.mp4",
   },
   {
     title: "STEM Link UI/UX Campaign",
@@ -288,8 +312,8 @@ export const workItems = [
     slug: "stem-link-uiux-campaign",
     client: "STEM Link",
     orientation: "portrait",
-    image: "https://drive.google.com/thumbnail?id=1C4T_n-Dv-we3mOGAwAFfPjBqDjmg1rXq",
-    href: "https://drive.google.com/file/d/1C4T_n-Dv-we3mOGAwAFfPjBqDjmg1rXq/view?usp=sharing",
+    image: "/videos/portfolio/stem-link-uiux-campaign.jpg",
+    video: "/videos/portfolio/stem-link-uiux-campaign.mp4",
   },
   {
     title: "STEM Link Cybersecurity Campaign 01",
@@ -297,8 +321,8 @@ export const workItems = [
     slug: "stem-link-cybersecurity-campaign-01",
     client: "STEM Link",
     orientation: "portrait",
-    image: "https://drive.google.com/thumbnail?id=18DL50LDXGgi7FSelW1UgBAd29YgV_aDG",
-    href: "https://drive.google.com/file/d/18DL50LDXGgi7FSelW1UgBAd29YgV_aDG/view?usp=sharing",
+    image: "/videos/portfolio/stem-link-cybersecurity-campaign-01.jpg",
+    video: "/videos/portfolio/stem-link-cybersecurity-campaign-01.mp4",
   },
   {
     title: "STEM Link Cybersecurity Campaign 02",
@@ -306,8 +330,8 @@ export const workItems = [
     slug: "stem-link-cybersecurity-campaign-02",
     client: "STEM Link",
     orientation: "portrait",
-    image: "https://drive.google.com/thumbnail?id=1MMQW_6j3c1DqhYeBFD9l88c7Mk5ZwErq",
-    href: "https://drive.google.com/file/d/1MMQW_6j3c1DqhYeBFD9l88c7Mk5ZwErq/view?usp=sharing",
+    image: "/videos/portfolio/stem-link-cybersecurity-campaign-02.jpg",
+    video: "/videos/portfolio/stem-link-cybersecurity-campaign-02.mp4",
   },
   {
     title: "Shak Tea Commercial",
@@ -376,4 +400,62 @@ export const homeHighlights = [
   { icon: BadgeCheck, label: "Credibility-first execution" },
   { icon: PlaySquare, label: "Video and content built to ship" },
   { icon: PenTool, label: "Brand systems, not one-off posts" },
+];
+
+// Homepage results marquee, shown in this order starting from the left.
+// The right-hand stat is the outcome that matters most for each video (likes, shares, leads, sales, sign-ups...).
+// TODO: replace "—" stats with real figures.
+export type ShowcaseVideo = {
+  src: string;
+  poster: string;
+  category: string;
+  stats: { value: string; label: string }[];
+};
+
+export const showcaseVideos: ShowcaseVideo[] = [
+  {
+    src: "/videos/showcase/showcase-1.mp4",
+    poster: "/videos/showcase/showcase-1.jpg",
+    category: "Automotive",
+    stats: [
+      { value: "150K+", label: "Total views" },
+      { value: "#1", label: "On client's channel" },
+    ],
+  },
+  {
+    src: "/videos/showcase/showcase-2.mp4",
+    poster: "/videos/showcase/showcase-2.jpg",
+    category: "Automotive",
+    stats: [
+      { value: "10K+", label: "Views" },
+      { value: "—", label: "Likes" },
+    ],
+  },
+  {
+    src: "/videos/showcase/showcase-3.mp4",
+    poster: "/videos/showcase/showcase-3.jpg",
+    category: "Automotive",
+    stats: [
+      { value: "5K+", label: "Total views" },
+      { value: "+450%", label: "Reach gain" },
+    ],
+  },
+  {
+    src: "/videos/showcase/showcase-5.mp4",
+    poster: "/videos/showcase/showcase-5.jpg",
+    category: "Mobile Retail",
+    stats: [
+      { value: "50K+", label: "Total views" },
+      { value: "10+", label: "Sales" },
+    ],
+  },
+  {
+    src: "/videos/showcase/showcase-4.mp4",
+    poster: "/videos/showcase/showcase-4.jpg",
+    category: "Education",
+    stats: [
+      { value: "#1", label: "Campaign performer" },
+      { value: "100+", label: "Webinar sign-ups" },
+    ],
+  },
 ];
